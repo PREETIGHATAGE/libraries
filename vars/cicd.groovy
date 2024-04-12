@@ -1,6 +1,6 @@
-def newGit(maven)
+def newGit(libraries)
 {
-git "${maven}
+git "${libraries}
 }
 def newMaven()
 {
