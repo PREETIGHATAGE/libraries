@@ -1,6 +1,6 @@
 def newGit(libraries)
 {
-git "${libraries}
+git "${https://github.com/PREETIGHATAGE/libraries.git}"
 }
 def newMaven()
 {
