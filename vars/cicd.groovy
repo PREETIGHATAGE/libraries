@@ -1,6 +1,6 @@
-def newGit(repo)
+def newGit(maven)
 {
-git "${repo}
+git "${https://github.com/PREETIGHATAGE/maven.git}
 }
 def newMaven()
 {
