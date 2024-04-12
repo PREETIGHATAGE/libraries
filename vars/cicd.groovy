@@ -1,4 +1,4 @@
-def newGit()
+def newGit(libraries)
 {
 git "${libraries}
 }
