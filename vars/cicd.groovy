@@ -1,6 +1,6 @@
 def newGit(libraries)
 {
-git "${https://github.com/PREETIGHATAGE/libraries.git}"
+git "${libraries}"
 }
 def newMaven()
 {
@@ -13,6 +13,6 @@ deploy adapters: [tomcat9(credentialsId: '8a3325e9-d38f-4e77-be7d-f009417b0ffb',
 def newTest(pipeline)
 {
 echo "${pipeline}
-sh "java -jar /home/ubuntu/.jenkins/workspace/pipeline/testing.jar"
+sh "java -jar /home/ubuntu/.jenkins/workspace/${pipeline}/testing.jar"
 }
 
