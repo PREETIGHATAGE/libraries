@@ -1,6 +1,6 @@
 def newGit(maven)
 {
-git "${https://github.com/PREETIGHATAGE/maven.git}
+git "${repo}
 }
 def newMaven()
 {
